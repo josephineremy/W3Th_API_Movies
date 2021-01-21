@@ -1,0 +1,86 @@
+#page-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal {
+  position: fixed;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  top: 20%;
+  background-color: white;
+  border: solid 2px gray;
+}
+
+.modal img {
+  max-width: 200px;
+}
+
+img {
+  max-width : 150px;
+}
+
+.film {
+  width: 65%;
+  transform: translateX(20vw);
+  opacity: 1;
+  transition: transform 0.4s, opacity 0.4s;
+  margin-top: 5em;
+}
+
+.film.not-visible {
+  transform: translateX(0);
+  opacity: 0;
+}
+
+h1 {
+  text-align: center;
+  padding-top:1em;
+}
+
+
+#searchBar {
+  border: 1px solid #CCCCCC;
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  position: relative;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.25em;
+  padding-left: 0.5em;
+}
+
+
+input:focus
+{
+ outline:none;
+}
+
+.keyword
+{
+  border:1px solid white;
+  height:2em;
+  font-size: 15px;
+  padding-right: 20em;
+  /* position: absolute; top:3px; left:40px; */
+}
+
+
+#movies {
+  margin-top: 4em;
+}
+
+.modal-body {
+  margin-left: 1em;
+}
+
+.col-lg-8 {
+  margin-top:2.5em;
+}
